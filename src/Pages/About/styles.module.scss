@@ -1,0 +1,20 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  p{
+    width: 90%;
+    margin-left: 50px;
+  }
+}
+
+.info{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+  img{
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+  }
+}

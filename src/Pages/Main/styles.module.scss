@@ -1,0 +1,25 @@
+.header{
+    width: 100%;
+    display: flex;
+    padding-top: 20px;
+    justify-content: space-between;
+
+h1{
+    font-size: 36px;
+    cursor: pointer;
+}
+    a{
+        all: unset;
+        padding: 10px 15px;
+        color: black;
+        font-size: 24px;
+        cursor: pointer;
+    }
+
+   
+}
+
+.main{
+    padding: 50px;
+    height: 100%;
+}
