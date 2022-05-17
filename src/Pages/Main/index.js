@@ -1,7 +1,7 @@
 import style from './styles.module.scss';
-import LinkedInIcon from '@mui/icons-material/LinkedIn';
-import GitHubIcon from '@mui/icons-material/GitHub';
+
 import { NavLink, Outlet, useNavigate} from 'react-router-dom'
+import { Footer } from '../../components/Footer';
 
 export function Main(){
   const navigate = useNavigate()
@@ -15,10 +15,7 @@ export function Main(){
             <main className={style.main}>
                 <Outlet/>
             </main>
-            <footer className={style.footer}>
-              <a href='https://www.linkedin.com/in/nobarbosa/' target='_blank' rel="noreferrer"><LinkedInIcon /></a>
-              <a href='https://github.com/NOBarbosa' target='_blank' rel="noreferrer"><GitHubIcon/></a>  
-            </footer>
+            <Footer />
     </div>
     )
 }

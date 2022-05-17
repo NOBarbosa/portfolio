@@ -1,5 +1,5 @@
 .container{
-    position: relative;
+   height: 100%;
 }
 .header{
     width: 100%;
@@ -25,19 +25,4 @@ h1{
 .main{
     padding: 50px;
     height: 100%;
-}
-.footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    gap: 50px;
-    
-
-    a{
-        all: unset;
-        color: black;
-        cursor: pointer;
-        padding: auto;
-    }
 }

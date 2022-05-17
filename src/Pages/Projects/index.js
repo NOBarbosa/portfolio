@@ -1,6 +1,9 @@
-
+import style from './styles.module.scss';
+import Card from '../../components/Card';
 export function Projects(){
     return(
-        <h1>Projetos</h1>
+        <div className={style.container}>
+            <Card />
+        </div>
     )
 }

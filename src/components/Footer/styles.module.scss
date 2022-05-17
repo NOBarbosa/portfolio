@@ -1,0 +1,17 @@
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  gap: 50px;
+  position: absolute;
+  bottom: 0px;
+  
+
+  a{
+      all: unset;
+      color: black;
+      cursor: pointer;
+      padding: auto;
+  }
+}
