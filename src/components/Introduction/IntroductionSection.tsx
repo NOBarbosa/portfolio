@@ -11,7 +11,7 @@ export function IntroductionSection() {
         <h1>Hi, I'm Nati</h1>
         <h2>Full-stack developer and innovation enthusiast</h2>
         <p>
-          Over 4 years of experience in the tech industry. I specialize in
+          Over 2 years of experience in the tech industry. I specialize in
           building innovative web and mobile applications using technologies
           such as React, React Native, and Node.js.
         </p>

@@ -3,7 +3,8 @@
   line-height: 1.5;
   font-weight: 400;
   
-  background-color: #242424;
+  background-color: var(--surface-background);
+
   
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -24,7 +25,9 @@
 
 html{
     font-size: 62.5%; 
-    overflow-y: hidden;
+    width: 100vw;
+    min-height: 100dvh;
+
 }
 
 body {
@@ -32,8 +35,7 @@ body {
   padding: 0;
   box-sizing: border-box;
   width: 100vw;
-  height: 100dvh;
-  background-color: var(--surface-background);
+  height: 100%;
   color: var(--text-primary);
   position: relative;
 }
