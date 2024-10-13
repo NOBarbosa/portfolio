@@ -9,6 +9,7 @@ export function Header() {
   const openMenu = () => {
     setOpen((prev) => !prev);
   };
+
   return (
     <header className={s.header}>
       <h2>Natalia</h2>
