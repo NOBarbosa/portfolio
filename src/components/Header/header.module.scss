@@ -1,0 +1,54 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.2rem;
+  h2 {
+    color: white;
+    font-family: "Kalam", cursive;
+  }
+  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    font-size: 1.6rem;
+
+    li {
+      list-style-type: none;
+    }
+  }
+  img {
+    display: none;
+    cursor: pointer;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    img {
+      display: block;
+    }
+    .active {
+      background-color: var(--surface-primary);
+      width: 60%;
+      height: 80%;
+      position: absolute;
+      right: 0;
+      top: 10rem;
+      ul {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10rem;
+        li {
+          width: 80%;
+          text-align: right;
+          font-size: 2.4rem;
+          margin: 1.5rem;
+        }
+      }
+    }
+    .closed {
+      display: none;
+    }
+  }
+}
