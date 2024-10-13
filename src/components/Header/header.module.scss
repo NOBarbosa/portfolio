@@ -6,6 +6,7 @@
   h2 {
     color: white;
     font-family: "Kalam", cursive;
+    font-size: 3.2rem;
   }
   ul {
     display: flex;
@@ -15,6 +16,10 @@
 
     li {
       list-style-type: none;
+      cursor: pointer;
+    }
+    li:hover {
+      font-weight: bold;
     }
   }
   img {

@@ -16,9 +16,15 @@ export function Header() {
       <img src={open ? Close : Menu} alt="Menu icon" onClick={openMenu} />
       <div className={open ? s.active : s.closed}>
         <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
         </ul>
       </div>
     </header>
